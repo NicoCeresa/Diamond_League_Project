@@ -23,8 +23,8 @@ def DL_2023_web_scraper():
 
     for title_element in section_titles:
         # Extract the section title
-        section_title = pattern.search(title_element.text).group(1)
-
+        section_title = pattern.search(title_element.text).group(1).lstrip()
+        print(section_title)
         # Extract the PDF link
         pdf_link = title_element['href']
 
