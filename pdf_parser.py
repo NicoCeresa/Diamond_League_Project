@@ -11,7 +11,7 @@ number_of_pages = len(reader.pages)
 page = reader.pages[0]
 data = page.extract_text()
 
-lines = data.strip().split('\n')
+lines = data.split('\n')
 
 # print(lines)
 
@@ -22,8 +22,9 @@ header = None
 # Define regular expressions to match patterns
 reaction_pattern = re.compile(r'\b\d+\.\d{3}\b')
 date_pattern = re.compile(r'^\d{1,2} [A-Za-z]{3} \d{4}$')
-name_pattern = re.compile(r'\b[A-Za-z]+\s+[A-Za-z]+\s+[A-Za-z]+\b')
+name_pattern = re.compile(r'^(?:[a-zA-Z]{2,15} ?\b){2,3}$')
 result_pattern = re.compile(r'\b\d{2}\.\d{2}\b')
+nat_pattern = re.compile(r'^[A-Z]{3}$')
 
 # Iterate through the lines
 for line in lines:
@@ -37,6 +38,9 @@ for line in lines:
 
     elif name_pattern.match(line):
         current_data['Name'] = line
+
+    elif nat_pattern.match(line):
+        current_data['Nat'] = line
     
     elif reaction_pattern.match(line):
         current_data['Reaction_Time'] = line
@@ -49,9 +53,6 @@ for line in lines:
 
 # Create a DataFrame from the list of dictionaries
 df = pd.DataFrame(data_rows)
+df = df[~(df['Name'].isin(df.columns))]
 
-# Print the resulting DataFrame
-print(df)
-
-
-
+print(df.dropna().head(15))
