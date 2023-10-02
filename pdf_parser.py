@@ -1,12 +1,10 @@
 import re
-import tabula
-from tabula import read_pdf
+import camelot
 from pdfquery import PDFQuery
 from pdfminer.high_level import extract_pages, extract_text
 
-tables = tabula.read_pdf('results_pdfs/Brussels_2023_results.pdf')
-print(tables)
-
+tables = camelot.read_pdf('results_pdfs/Brussels_2023_results.pdf')
+print(tables[0])
 # for page_layout in extract_pages('results_pdfs/Brussels_2023_results.pdf'):
 #     for element in page_layout:
 #         # print(element)
