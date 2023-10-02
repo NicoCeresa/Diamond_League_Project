@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 alternate_url = 'https://www.diamondleague.com/lists-results/statistics/'
-
 # create folder for output PDFs
 folder_name='results_pdfs'
 if not os.path.exists(folder_name):
