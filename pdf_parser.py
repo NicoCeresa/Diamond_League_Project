@@ -22,8 +22,9 @@ header = None
 # Define regular expressions to match patterns
 reaction_pattern = re.compile(r'\b\d+\.\d{3}\b')
 date_pattern = re.compile(r'^\d{1,2} [A-Za-z]{3} \d{4}$')
-name_pattern = re.compile(r'^(?:[a-zA-Z]{2,15} ?\b){2,3}$')
-result_pattern = re.compile(r'\b\d{2}\.\d{2}\b')
+# name_pattern = re.compile(r'^(?:[a-zA-Z]{2,15} ?\b){2,3}$')
+name_pattern = re.compile
+result_pattern = re.compile(r'(\d+:\d+\.\d+)|(\d+\.\d+)|DNF')
 nat_pattern = re.compile(r'^[A-Z]{3}$')
 
 # Iterate through the lines
@@ -49,10 +50,11 @@ for line in lines:
         current_data['Result'] = line
 
     else:
-       data_rows.append(current_data.copy())
+        current_data['extras'] = line
+        data_rows.append(current_data.copy())
 
 # Create a DataFrame from the list of dictionaries
 df = pd.DataFrame(data_rows)
 df = df[~(df['Name'].isin(df.columns))]
 
-print(df.dropna().head(15))
+print(df)
