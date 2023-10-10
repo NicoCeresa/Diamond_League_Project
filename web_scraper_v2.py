@@ -59,7 +59,16 @@ for year in years:
             race_list.append(element)
         else:
             pass
+    
+    data_list = [result_list, wind_list, athlete_list, birth_list, nat_list, race_list, place_list, venue_list, date_list, rs_list]
+    
+    same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
 
+    if same_length:
+        print("All lists have the same length.")
+    else:
+        print("Lists have different lengths.")
+        break
 
     results_df = pd.DataFrame({'results':result_list,
         'wind':wind_list, 
@@ -74,14 +83,3 @@ for year in years:
 
     # results_df.head()
     results_df.to_csv(f'test_files/uncleaned_test_{year}.csv')
-
-# print(len(result_list))
-# print(len(wind_list))
-# print(len(athlete_list))
-# print(len(birth_list))
-# print(len(nat_list))
-# print(len(race_list))
-# print(len(place_list))
-# print(len(venue_list))
-# print(len(date_list))
-# print(len(rs_list))
