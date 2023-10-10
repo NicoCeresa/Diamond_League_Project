@@ -82,4 +82,4 @@ for year in years:
         'rs':rs_list})
 
     # results_df.head()
-    results_df.to_csv(f'test_files/uncleaned_test_{year}.csv')
+    results_df.to_csv(f'uncleaned_csv_output/uncleaned_test_{year}.csv')
