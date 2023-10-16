@@ -1,5 +1,14 @@
 # Diamond_League_Project
 
+## How To Run
+run the file `web_scraper_v2.py` like this:
+`python3 web_scraper_v2.py` in your terminal
+
+**Expected Output**
+- The script should output two folders:
+  1) a folder that contains the partitioned by year CSVs
+  2) a folder that contains a CSV created from concatenating the partitioned CSVs 
+
 ## Project Overview
 
 **File Descriptions**
