@@ -1,10 +1,11 @@
-from bs4 import BeautifulSoup
-import requests
-from datetime import datetime
 import os
-import pandas as pd
+import requests
 import numpy as np
+import pandas as pd
 from glob import glob
+from datetime import datetime
+from bs4 import BeautifulSoup
+
 
 
 HEADERS = {
