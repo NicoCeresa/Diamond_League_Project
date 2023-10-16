@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import numpy as np
 
+
 HEADERS = {
     "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     "Accept-Encoding":"gzip, deflate, br",
@@ -18,6 +19,18 @@ HEADERS = {
 main_url = 'https://www.diamondleague.com/lists-results/statistics/'
 
 class Transform:
+
+    def init_folders(split_csv_name, concat_csv_name):
+        if os.path.isdir(split_csv_name):
+            pass
+        
+        else:
+            os.mkdir(split_csv_name)
+
+        if os.path.isdir(concat_csv_name):
+            pass
+        else:
+            os.mkdir(concat_csv_name)
 
     def list_from_html(url, soup):
         result = soup.find_all('td', class_='right result')
@@ -83,9 +96,14 @@ class Transform:
                 'date':data_list[8], 
                 'rs':data_list[9]})
 
-            # results_df.head()
             results_df.to_csv(f'uncleaned_csv_output/uncleaned_test_{year}.csv')
+
+# sorted(glob(os.path.join('uncleaned_csv_output', '*.csv')))
+
+        # def concat_partitioned_csv(path_to_folder):
+        #     return (pd.concat([pd.read_csv(input)]))
 
 
 if __name__ == '__main__':
+    Transform.init_folders('uncleaned_csv_output', 'all_years_csv')
     Transform.partitioned_by_year_csv()
