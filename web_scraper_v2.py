@@ -6,8 +6,6 @@ from glob import glob
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-
-
 HEADERS = {
     "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     "Accept-Encoding":"gzip, deflate, br",
@@ -36,7 +34,7 @@ class Extract:
         return [split_csv_name, concat_csv_name]
 
 
-    def list_from_html(url, soup):
+    def parse_html(url, soup):
         result = soup.find_all('td', class_='right result')
         wind = soup.find_all('td', class_='right wind')
         # pa_pr_rec = soup.find_all('td', class_='center')
@@ -70,7 +68,7 @@ class Extract:
         return [result_list, wind_list, athlete_list, birth_list, nat_list, race_list, place_list, venue_list, date_list, rs_list]
     
 
-    def partitioned_by_year_csv():
+    def partitioned_by_year_to_csv():
         
         years = [year for year in range(2010, datetime.now().year + 1)]
 
@@ -80,7 +78,7 @@ class Extract:
             response = requests.get(url, headers=HEADERS)
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            data_list = Extract.list_from_html(url, soup)
+            data_list = Extract.parse_html(url, soup)
             
             same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
 
@@ -106,7 +104,7 @@ class Extract:
             results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}_{today}.csv')
 
 
-    def concat_partitioned_csv():
+    def concatenate_partitioned_csv():
         file_paths = sorted(glob(os.path.join('uncleaned_partitioned_output', "*.csv")))
         full_df = (pd.concat([pd.read_csv(input_file_path) for input_file_path in file_paths]))
         today = datetime.today().strftime('%m%d%Y')
@@ -116,5 +114,5 @@ class Extract:
 
 if __name__ == '__main__':
     Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')
-    Extract.partitioned_by_year_csv()
-    Extract.concat_partitioned_csv()
+    Extract.partitioned_by_year_to_csv()
+    Extract.concatenate_partitioned_csv()
