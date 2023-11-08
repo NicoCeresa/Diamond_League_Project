@@ -15,6 +15,7 @@ run the file `web_scraper_v2.py` like this:
 - `web_scraper_v2.py`: parses html from a different url that contains more data
   - separates output files based on the year of the data
   - outputs a concatenated file of all years combined aswell
+- `aws_connect.py`: connects to my s3 Bucket and uploads csvs to the bucket
 - `web_scraper_v1.py`: extracts pdfs from the html of the diamond league site
   - with where I am at in the project this is not very useful but handy if I ever need to extract pdfs again
 - `pdf_parser.py`: goes into each pdf and extracts data from the pdf
