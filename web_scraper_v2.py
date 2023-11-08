@@ -1,12 +1,11 @@
 import os
-import requests
 import boto3
+import requests
 import numpy as np
 import pandas as pd
 from hush import aws_creds
-from glob import glob
-from datetime import datetime as date
 from bs4 import BeautifulSoup
+from datetime import datetime as date
 
 HEADERS = {
     "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
@@ -18,35 +17,47 @@ HEADERS = {
     "Upgrade-Insecure-Requests":"1"
 }
 
-# client = boto3.client('s3', aws_access_key_id = aws_creds['AWS_acces_key'], aws_secret_access_key=aws_creds['AWS_secret'])
-# bucket_name = 'diamond-league-project-s3'
-# object_key = 'test.csv'
-# csv_obj = client.get_obj(Bucket=bucket_name, key=object_key)
-# body = csv_obj['Body']
-# csv_str = body.read().decode('utf-8')
-# # print(aws_creds['AWS_acces_key'])
-
-today = date.today().strftime('%m%d%Y')
 
 main_url = 'https://www.diamondleague.com/lists-results/statistics/'
 
+
 class Extract:
 
-    def init_folders(split_csv_name, concat_csv_name):
-        if os.path.isdir(split_csv_name):
+    def init_folders(split_folder_name, concat_folder_name):
+        """
+        - Checks if the desired folders exist
+        - If they do not it creates them
+
+        Args:
+            split_csv_name (_type_): Name of folder for split csvs
+            concat_csv_name (_type_): Name of folder for concatenated csv
+
+        Returns:
+            Names of the folders for later use
+        """
+        if os.path.isdir(split_folder_name):
             pass
         else:
-            os.mkdir(split_csv_name)
+            os.mkdir(split_folder_name)
 
-        if os.path.isdir(concat_csv_name):
+        if os.path.isdir(concat_folder_name):
             pass
         else:
-            os.mkdir(concat_csv_name)
+            os.mkdir(concat_folder_name)
 
-        return split_csv_name, concat_csv_name
+        return split_folder_name, concat_folder_name
 
 
     def parse_html(url, soup):
+        """_summary_
+
+        Args:
+            url (str): url of what you want to scrape
+            soup (Beautifulsoup): Initialization of Beautifulsoup
+
+        Returns:
+            _type_: _description_
+        """
         result = soup.find_all('td', class_='right result')
         wind = soup.find_all('td', class_='right wind')
         # pa_pr_rec = soup.find_all('td', class_='center')
@@ -79,16 +90,27 @@ class Extract:
                 pass
         return [result_list, wind_list, athlete_list, birth_list, nat_list, race_list, place_list, venue_list, date_list, rs_list]
     
-    def same_length(list1: list, list2: list):
-        
-        same_length = all(len(list1) == len(list2[0]) for list1 in list2)
+    
+    def same_length(data_list: list):
+        """_summary_
+        check for if the lists in a list of lists are all equal
+        Args:
+            data_list (list): a list of lists
+        """
+        same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
         if same_length:
             print("All lists have the same length.")
         else:
             print("Lists have different lengths.")
-            break
+        
 
     def partitioned_by_year_to_csv():
+        """
+        Input: nothing
+        Returns:
+            Dictionary: A dictionary containing the dataframes where the key 
+            is the year and the value is the dataframe
+        """
         df_dict = {}
         years = [year for year in range(2010, date.now().year + 1)]
 
@@ -99,9 +121,9 @@ class Extract:
             soup = BeautifulSoup(response.content, 'html.parser')
 
             data_list = Extract.parse_html(url, soup)
-
-            Extract.same_length(lst, data_list)
             
+            Extract.same_length(data_list=data_list)
+
             results_df = pd.DataFrame({'results':data_list[0],
                 'wind':data_list[1], 
                 'athlete':data_list[2],
@@ -115,25 +137,17 @@ class Extract:
 
             folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[0]
             # print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
-            results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}.csv')
+            results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}.csv', index=False)
             df_dict[f"{year}"] = results_df
         return df_dict
-    
-    def partitioned_output_dictionary():
-        df_dict = {}
-        pass
+
         
-
-
     def concatenate_partitioned_csv():
         file_paths = sorted(glob(os.path.join('uncleaned_partitioned_output', "*.csv")))
         full_df = (pd.concat([pd.read_csv(input_file_path) for input_file_path in file_paths]))
         folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[1]
-        # print(f"outputting: uncleaned_all_years_{today}.csv")
-        full_df.to_csv(f'{folder_name}/uncleaned_all_years.csv')
         return full_df
         
-
 
 if __name__ == '__main__':
     Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')
