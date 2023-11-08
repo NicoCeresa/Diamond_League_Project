@@ -1,7 +1,9 @@
 import os
 import requests
+import boto3
 import numpy as np
 import pandas as pd
+from hush import aws_creds
 from glob import glob
 from datetime import datetime as date
 from bs4 import BeautifulSoup
@@ -15,6 +17,11 @@ HEADERS = {
     "Cache-Control":"max-age=0, no-cache, no-store",
     "Upgrade-Insecure-Requests":"1"
 }
+
+client = boto3.client('s3', aws_access_key_id = aws_creds['AWS_acces_key'])
+# print(aws_creds['AWS_acces_key'])
+
+today = date.today().strftime('%m%d%Y')
 
 main_url = 'https://www.diamondleague.com/lists-results/statistics/'
 
@@ -99,7 +106,6 @@ class Extract:
                 'date':data_list[8], 
                 'rs':data_list[9]})
 
-            today = date.today().strftime('%m%d%Y')
             folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[0]
             print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
             results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}_{today}.csv')
@@ -108,7 +114,6 @@ class Extract:
     def concatenate_partitioned_csv():
         file_paths = sorted(glob(os.path.join('uncleaned_partitioned_output', "*.csv")))
         full_df = (pd.concat([pd.read_csv(input_file_path) for input_file_path in file_paths]))
-        today = date.today().strftime('%m%d%Y')
         folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[1]
         print(f"outputting: uncleaned_all_years_{today}.csv")
         full_df.to_csv(f'{folder_name}/uncleaned_all_years_{today}.csv')
