@@ -20,7 +20,10 @@ run the file `web_scraper_v2.py` like this:
 - `pdf_parser.py`: goes into each pdf and extracts data from the pdf
   - again, not used as I have found a better approach but want to keep it here as it is apart of the journey
 
-**What I Plan On Adding in the Near Future**
+**Next Steps**
+- Add a transform file
+- load to a mysql db (dbeaver maybe)
+- orchestrate with airflow on an ec2 container
 - Create a full data pipeline and extract insights from the data
 - if its possible I want to add functionality of being able to choose what event you want to look at
 
