@@ -3,6 +3,7 @@
 ## How To Run
 run the file `web_scraper_v2.py` like this:
 `python3 web_scraper_v2.py` in your terminal
+- You can use my aws_connect.py file as a guidline of how to connect and upload to your s3 bucket
 
 **Expected Output**
 - The script should output two folders:
