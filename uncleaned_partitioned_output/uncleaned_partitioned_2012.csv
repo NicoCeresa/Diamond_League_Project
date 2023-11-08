@@ -1,174 +1,174 @@
-,results,wind,athlete,birth_year,nationality,race,place,venue,date,rs
-0,9.69,-0.1,Yohan BLAKE,89,JAM,F,1,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1316
-1,9.76,-0.1,Usain BOLT,86,JAM,F,1,"Stadio Olimpico, Roma (ITA)",31.05,1291
-2,9.76,+1.4,Yohan BLAKE,89,JAM,F,1,"Letzigrund, Zürich (SUI)",30.08,1291
-3,9.79,+0.6,Usain BOLT,86,JAM,F,1,"Bislett Stadion, Oslo (NOR)",07.06,1280
-4,9.85,+0.6,Asafa POWELL,82,JAM,F,2,"Bislett Stadion, Oslo (NOR)",07.06,1259
-5,9.86,+0.3,Usain BOLT,86,JAM,F,1,"Boudewijnstadion, Bruxelles (BEL)",07.09,1255
-6,9.87,+0.4,Justin GATLIN,82,USA,F,1,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1252
-7,9.88,+0.4,Asafa POWELL,82,JAM,F,2,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1248
-8,9.90,+1.3,Justin GATLIN,82,USA,F,1,"Hayward Field, Eugene, OR (USA)",02.06,1241
-9,9.90,+0.7,Yohan BLAKE,89,JAM,F1,1,"Icahn Stadium, New York, NY (USA)",09.06,1241
-10,9.91,-0.1,Asafa POWELL,82,JAM,F,2,"Stadio Olimpico, Roma (ITA)",31.05,1238
-11,9.93,+1.3,Nickel ASHMEADE,90,JAM,F,2,"Hayward Field, Eugene, OR (USA)",02.06,1231
-12,9.93,+0.7,Keston BLEDMAN,88,TTO,F1,2,"Icahn Stadium, New York, NY (USA)",09.06,1231
-13,9.93,+0.7,Ryan BAILEY,89,USA,F,1,"Olympiastadion, Stockholm (SWE)",17.08,1231
-14,9.95,-0.1,Nesta CARTER,85,JAM,F,2,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1224
-15,9.95,+1.4,Nesta CARTER,85,JAM,F,2,"Letzigrund, Zürich (SUI)",30.08,1224
-16,9.96,+0.3,Nesta CARTER,85,JAM,F,2,"Boudewijnstadion, Bruxelles (BEL)",07.09,1220
-17,9.97,+1.4,Ryan BAILEY,89,USA,F,3,"Letzigrund, Zürich (SUI)",30.08,1217
-18,9.97,+0.3,Kemar BAILEY-COLE,92,JAM,F,3,"Boudewijnstadion, Bruxelles (BEL)",07.09,1217
-19,9.99,+0.4,Lerone CLARKE,81,JAM,F,3,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1210
-20,9.99,+0.7,Michael RODGERS,85,USA,F1,3,"Icahn Stadium, New York, NY (USA)",09.06,1210
-21,9.99,0.0,Tyson GAY,82,USA,F,1,Paris (FRA),06.07,1210
-22,10.00,+0.4,Michael RODGERS,85,USA,F,4,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1206
-23,10.00,-1.5,Tyson GAY,82,USA,F2,1,"Icahn Stadium, New York, NY (USA)",09.06,1215
-24,10.00,-0.1,Ryan BAILEY,89,USA,F,3,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1206
-25,10.01,+1.4,Kim COLLINS,76,SKN,F,4,"Letzigrund, Zürich (SUI)",30.08,1203
-26,10.02,-0.4,Asafa POWELL,82,JAM,F,1,"Shanghai Stadium, Shanghai (CHN)",19.05,1201
-27,10.02,-0.1,Jimmy VICAUT,92,FRA,F,4,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1199
-28,10.03,0.0,Justin GATLIN,82,USA,F,2,Paris (FRA),06.07,1196
-29,10.03,-1.2,Tyson GAY,82,USA,F,1,"Crystal Palace, London (GBR)",13.07,1203
-30,10.03,+0.3,Kim COLLINS,76,SKN,F,4,"Boudewijnstadion, Bruxelles (BEL)",07.09,1196
-31,10.03,+0.3,Nickel ASHMEADE,90,JAM,F,5,"Boudewijnstadion, Bruxelles (BEL)",07.09,1196
-32,10.04,-0.1,Christophe LEMAITRE,90,FRA,F,3,"Stadio Olimpico, Roma (ITA)",31.05,1193
-33,10.04,+1.3,Trell KIMMONS,85,USA,F,3,"Hayward Field, Eugene, OR (USA)",02.06,1193
-34,10.04,+1.3,Walter DIX,86,USA,F,4,"Hayward Field, Eugene, OR (USA)",02.06,1193
-35,10.04,+1.4,Michael FRATER,82,JAM,F,5,"Letzigrund, Zürich (SUI)",30.08,1193
-36,10.04,+0.3,Ryan BAILEY,89,USA,F,6,"Boudewijnstadion, Bruxelles (BEL)",07.09,1193
-37,10.05,+0.4,Nesta CARTER,85,JAM,F,5,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1189
-38,10.05,-0.1,Kim COLLINS,76,SKN,F,4,"Stadio Olimpico, Roma (ITA)",31.05,1189
-39,10.05,+1.3,Darvis PATTON,77,USA,F,5,"Hayward Field, Eugene, OR (USA)",02.06,1189
-40,10.05,+1.3,Nesta CARTER,85,JAM,F,6,"Hayward Field, Eugene, OR (USA)",02.06,1189
-41,10.06,-1.5,Ryan BAILEY,89,USA,H1,1,"Crystal Palace, London (GBR)",13.07,1195
-42,10.06,+0.7,Nesta CARTER,85,JAM,F,2,"Olympiastadion, Stockholm (SWE)",17.08,1186
-43,10.06,+0.3,Jimmy VICAUT,92,FRA,F,7,"Boudewijnstadion, Bruxelles (BEL)",07.09,1186
-44,10.07,+1.3,Michael RODGERS,85,USA,F,7,"Hayward Field, Eugene, OR (USA)",02.06,1182
-45,10.07,+1.4,Christophe LEMAITRE,90,FRA,F,6,"Letzigrund, Zürich (SUI)",30.08,1182
-46,10.08,-0.4,Michael RODGERS,85,USA,F,2,"Shanghai Stadium, Shanghai (CHN)",19.05,1181
-47,10.08,0.0,Christophe LEMAITRE,90,FRA,F,3,Paris (FRA),06.07,1179
-48,10.08,+1.4,Darvis PATTON,77,USA,F,7,"Letzigrund, Zürich (SUI)",30.08,1179
-49,10.09,+0.7,Richard THOMPSON,85,TTO,F1,4,"Icahn Stadium, New York, NY (USA)",09.06,1176
-50,10.09,-1.2,Ryan BAILEY,89,USA,F,2,"Crystal Palace, London (GBR)",13.07,1183
-51,10.10,+0.6,Lerone CLARKE,81,JAM,F,3,"Bislett Stadion, Oslo (NOR)",07.06,1172
-52,10.11,+0.4,Darvis PATTON,77,USA,F,6,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1169
-53,10.12,+0.7,Michael FRATER,82,JAM,F,3,"Olympiastadion, Stockholm (SWE)",17.08,1165
-54,10.13,-1.2,Nesta CARTER,85,JAM,F,3,"Crystal Palace, London (GBR)",13.07,1169
-55,10.13,-0.1,Jaysuma SAIDY NDURE,84,NOR,F,5,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1162
-56,10.13,-0.7,Kemar BAILEY-COLE,92,JAM,F2,1,"Letzigrund, Zürich (SUI)",30.08,1166
-57,10.14,+0.4,Jak Ali HARVEY,89,JAM,F,7,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1159
-58,10.14,+1.3,Emmanuel CALLENDER,84,TTO,F,8,"Hayward Field, Eugene, OR (USA)",02.06,1159
-59,10.14,0.0,Nickel ASHMEADE,90,JAM,F,4,Paris (FRA),06.07,1159
-60,10.14,0.0,Michael FRATER,82,JAM,F,5,Paris (FRA),06.07,1159
-61,10.14,+0.7,Jaysuma SAIDY NDURE,84,NOR,F,1,"Olympiastadion, Stockholm (SWE)",17.08,1159
-62,10.14,-0.1,Keston BLEDMAN,88,TTO,F,6,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1159
-63,10.15,+0.7,Trell KIMMONS,85,USA,F1,5,"Icahn Stadium, New York, NY (USA)",09.06,1155
-64,10.15,-1.5,Nesta CARTER,85,JAM,H1,2,"Crystal Palace, London (GBR)",13.07,1164
-65,10.15,-0.7,Michael FRATER,82,JAM,H2,1,"Crystal Palace, London (GBR)",13.07,1159
-66,10.15,-0.7,Tyson GAY,82,USA,H2,2,"Crystal Palace, London (GBR)",13.07,1159
-67,10.15,-1.2,Michael FRATER,82,JAM,F,4,"Crystal Palace, London (GBR)",13.07,1162
-68,10.15,+0.7,Darvis PATTON,77,USA,F,4,"Olympiastadion, Stockholm (SWE)",17.08,1155
-69,10.15,-0.7,Adam GEMILI,93,GBR,F2,2,"Letzigrund, Zürich (SUI)",30.08,1159
-70,10.16,-0.4,Nesta CARTER,85,JAM,F,3,"Shanghai Stadium, Shanghai (CHN)",19.05,1154
-71,10.16,-0.1,Lerone CLARKE,81,JAM,F,5,"Stadio Olimpico, Roma (ITA)",31.05,1152
-72,10.16,0.0,Michael RODGERS,85,USA,F,6,Paris (FRA),06.07,1152
-73,10.16,-0.7,Trell KIMMONS,85,USA,H2,3,"Crystal Palace, London (GBR)",13.07,1156
-74,10.18,0.0,Trell KIMMONS,85,USA,F,7,Paris (FRA),06.07,1145
-75,10.18,-1.5,Michael RODGERS,85,USA,H1,3,"Crystal Palace, London (GBR)",13.07,1154
-76,10.19,-0.7,Kim COLLINS,76,SKN,H2,4,"Crystal Palace, London (GBR)",13.07,1146
-77,10.19,-1.2,Michael RODGERS,85,USA,F,5,"Crystal Palace, London (GBR)",13.07,1149
-78,10.19,-1.2,Trell KIMMONS,85,USA,F,6,"Crystal Palace, London (GBR)",13.07,1149
-79,10.19,+1.4,Jaysuma SAIDY NDURE,84,NOR,F,8,"Letzigrund, Zürich (SUI)",30.08,1142
-80,10.20,+0.6,Justyn WARNER,87,CAN,F,4,"Bislett Stadion, Oslo (NOR)",07.06,1138
-81,10.20,+0.7,Daniel BAILEY,86,ANT,F1,6,"Icahn Stadium, New York, NY (USA)",09.06,1138
-82,10.20,0.0,Richard THOMPSON,85,TTO,F,8,Paris (FRA),06.07,1138
-83,10.21,+0.7,Gerald PHIRI,88,ZAM,F1,7,"Icahn Stadium, New York, NY (USA)",09.06,1135
-84,10.21,-0.7,Kemar HYMAN,89,CAY,H2,5,"Crystal Palace, London (GBR)",13.07,1139
-85,10.21,-0.7,James DASAOLU,87,GBR,F2,3,"Letzigrund, Zürich (SUI)",30.08,1139
-86,10.22,-0.4,Darvis PATTON,77,USA,F,4,"Shanghai Stadium, Shanghai (CHN)",19.05,1134
-87,10.22,+0.7,Adam GEMILI,93,GBR,F,5,"Olympiastadion, Stockholm (SWE)",17.08,1132
-88,10.23,-0.1,Kimmari ROACH,89,JAM,F,6,"Stadio Olimpico, Roma (ITA)",31.05,1128
-89,10.23,+0.7,Travis PADGETT,86,USA,F1,8,"Icahn Stadium, New York, NY (USA)",09.06,1128
-90,10.23,+0.7,Richard THOMPSON,85,TTO,F,6,"Olympiastadion, Stockholm (SWE)",17.08,1128
-91,10.23,+0.3,Gerald PHIRI,88,ZAM,F,8,"Boudewijnstadion, Bruxelles (BEL)",07.09,1128
-92,10.24,-0.1,Jak Ali HARVEY,89,JAM,F,7,"Stadio Olimpico, Roma (ITA)",31.05,1125
-93,10.24,+0.7,Gerald PHIRI,88,ZAM,F,7,"Olympiastadion, Stockholm (SWE)",17.08,1125
-94,10.25,-1.2,Kemar HYMAN,89,CAY,F,7,"Crystal Palace, London (GBR)",13.07,1129
-95,10.26,-0.4,Mario FORSYTHE,85,JAM,F,5,"Shanghai Stadium, Shanghai (CHN)",19.05,1120
-96,10.26,+0.5,Ángel David RODRÍGUEZ,80,ESP,F2,1,"Stadio Olimpico, Roma (ITA)",31.05,1118
-97,10.27,+0.7,Ramone MCKENZIE,90,JAM,F1,9,"Icahn Stadium, New York, NY (USA)",09.06,1115
-98,10.27,-1.5,Keston BLEDMAN,88,TTO,H1,4,"Crystal Palace, London (GBR)",13.07,1124
-99,10.27,+0.7,Wallace SPEARMON,84,USA,F,2,"Olympiastadion, Stockholm (SWE)",17.08,1115
-100,10.27,-0.7,Mario FORSYTHE,85,JAM,F2,4,"Letzigrund, Zürich (SUI)",30.08,1119
-101,10.28,+0.4,Jimmy VICAUT,92,FRA,F,8,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1112
-102,10.30,-0.1,Ainsley WAUGH,81,JAM,F,8,"Stadio Olimpico, Roma (ITA)",31.05,1105
-103,10.30,+0.6,Simon MAGAKWE,86,RSA,F,5,"Bislett Stadion, Oslo (NOR)",07.06,1105
-104,10.30,-1.5,Kemar BAILEY-COLE,92,JAM,F2,2,"Icahn Stadium, New York, NY (USA)",09.06,1114
-105,10.30,-1.5,Jason YOUNG,91,JAM,F2,3,"Icahn Stadium, New York, NY (USA)",09.06,1114
-106,10.31,-0.4,Bingtian SU,89,CHN,F,6,"Shanghai Stadium, Shanghai (CHN)",19.05,1104
-107,10.31,-0.7,Calesio NEWMAN,86,USA,F2,5,"Letzigrund, Zürich (SUI)",30.08,1106
-108,10.32,-0.4,Michael FRATER,82,JAM,F,7,"Shanghai Stadium, Shanghai (CHN)",19.05,1101
-109,10.32,+0.6,Dontae RICHARDS-KWOK,89,CAN,F1,1,"Stadio Olimpico, Roma (ITA)",31.05,1099
-110,10.32,0.0,Calesio NEWMAN,86,USA,F,9,Paris (FRA),06.07,1099
-111,10.32,-0.7,Jak Ali HARVEY,89,JAM,H2,6,"Crystal Palace, London (GBR)",13.07,1103
-112,10.32,-0.1,Richard THOMPSON,85,TTO,F,7,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1099
-113,10.32,+0.3,Kenroy ANDERSON,87,JAM,F,9,"Boudewijnstadion, Bruxelles (BEL)",07.09,1099
-114,10.33,-0.1,Simon MAGAKWE,86,RSA,F,9,"Stadio Olimpico, Roma (ITA)",31.05,1095
-115,10.34,-0.4,Kim COLLINS,76,SKN,F,8,"Shanghai Stadium, Shanghai (CHN)",19.05,1094
-116,10.35,-0.4,Peimeng ZHANG,87,CHN,F,9,"Shanghai Stadium, Shanghai (CHN)",19.05,1091
-117,10.35,-1.5,Dwain CHAMBERS,78,GBR,H1,5,"Crystal Palace, London (GBR)",13.07,1098
-118,10.37,+0.5,Christian MALCOLM,79,GBR,F2,2,"Stadio Olimpico, Roma (ITA)",31.05,1082
-119,10.37,-1.5,Kemar BAILEY-COLE,92,JAM,H1,6,"Crystal Palace, London (GBR)",13.07,1091
-120,10.40,+0.6,Marlon DEVONISH,76,GBR,F,6,"Bislett Stadion, Oslo (NOR)",07.06,1072
-121,10.40,+0.7,Alexander BRORSSON,90,SWE,F,3,"Olympiastadion, Stockholm (SWE)",17.08,1072
-122,10.40,+0.7,Rytis SAKALAUSKAS,87,LTU,F,4,"Olympiastadion, Stockholm (SWE)",17.08,1072
-123,10.41,+0.5,Giovanni CODRINGTON,88,NED,F2,3,"Stadio Olimpico, Roma (ITA)",31.05,1069
-124,10.43,-0.9,LeVonte WHITFIELD,93,USA,F,1,"Icahn Stadium, New York, NY (USA)",09.06,1068
-125,10.44,-0.7,Julian REUS,88,GER,F2,6,"Letzigrund, Zürich (SUI)",30.08,1063
-126,10.45,+0.7,Nil DE OLIVEIRA,86,SWE,F,8,"Olympiastadion, Stockholm (SWE)",17.08,1056
-127,10.45,-0.7,Daniel TALBOT,91,GBR,F1,1,"Letzigrund, Zürich (SUI)",30.08,1060
-128,10.46,+0.6,Reto Amaru SCHENKEL,88,SUI,F1,2,"Stadio Olimpico, Roma (ITA)",31.05,1053
-129,10.46,-1.5,Aaron ARMSTRONG,77,TTO,F2,4,"Icahn Stadium, New York, NY (USA)",09.06,1062
-130,10.47,+0.6,Ho-sua YEO,87,KOR,F1,3,"Stadio Olimpico, Roma (ITA)",31.05,1050
-131,10.47,-0.9,Jazeel MURPHY,94,JAM,F,2,"Icahn Stadium, New York, NY (USA)",09.06,1055
-132,10.48,+0.5,Kyung-soo OH,87,KOR,F2,4,"Stadio Olimpico, Roma (ITA)",31.05,1047
-133,10.49,+0.6,Leevan YEARWOOD,88,GBR,F1,4,"Stadio Olimpico, Roma (ITA)",31.05,1043
-134,10.49,+0.5,Gavin SMELLIE,86,CAN,F2,5,"Stadio Olimpico, Roma (ITA)",31.05,1043
-135,10.50,+0.6,Alex WILSON,90,SUI,F1,5,"Stadio Olimpico, Roma (ITA)",31.05,1040
-136,10.51,+0.5,Julian REUS,88,GER,F2,6,"Stadio Olimpico, Roma (ITA)",31.05,1037
-137,10.52,+0.6,Fabio CERUTTI,85,ITA,F,7,"Bislett Stadion, Oslo (NOR)",07.06,1034
-138,10.52,-1.5,Jeremy BASCOM,83,GUY,F2,5,"Icahn Stadium, New York, NY (USA)",09.06,1043
-139,10.52,-0.7,Kamil MASZTAK,84,POL,F1,2,"Letzigrund, Zürich (SUI)",30.08,1038
-140,10.53,-0.7,Christian MALCOLM,79,GBR,F2,7,"Letzigrund, Zürich (SUI)",30.08,1035
-141,10.54,-0.9,Abraham HALL,93,USA,F,3,"Icahn Stadium, New York, NY (USA)",09.06,1032
-142,10.55,-1.5,Ahmad RASHAD,87,USA,F2,6,"Icahn Stadium, New York, NY (USA)",09.06,1033
-143,10.55,-1.5,Mark LEWIS-FRANCIS,82,GBR,H1,7,"Crystal Palace, London (GBR)",13.07,1033
-144,10.57,-0.7,Andrew ROBERTSON,90,GBR,H2,7,"Crystal Palace, London (GBR)",13.07,1022
-145,10.59,+0.6,Brian MARIANO,85,NED,F1,6,"Stadio Olimpico, Roma (ITA)",31.05,1011
-146,10.59,-0.9,Raymond BOZMANS,94,USA,F,4,"Icahn Stadium, New York, NY (USA)",09.06,1016
-147,10.59,-1.5,Rushane SCOTT,88,JAM,F2,7,"Icahn Stadium, New York, NY (USA)",09.06,1020
-148,10.59,-0.7,Simone COLLIO,79,ITA,F1,3,"Letzigrund, Zürich (SUI)",30.08,1015
-149,10.59,-0.7,Reto Amaru SCHENKEL,88,SUI,F2,8,"Letzigrund, Zürich (SUI)",30.08,1015
-150,10.62,-0.7,Giovanni CODRINGTON,88,NED,F1,4,"Letzigrund, Zürich (SUI)",30.08,1006
-151,10.65,-0.7,Brian MARIANO,85,NED,F1,5,"Letzigrund, Zürich (SUI)",30.08,997
-152,10.66,-0.7,Martin KELLER,86,GER,F1,6,"Letzigrund, Zürich (SUI)",30.08,994
-153,10.67,-1.5,Simeon WILLIAMSON,86,GBR,H1,8,"Crystal Palace, London (GBR)",13.07,995
-154,10.68,-0.7,Jakub ADAMSKI,87,POL,F1,7,"Letzigrund, Zürich (SUI)",30.08,987
-155,10.72,-0.9,Khalfani MUHAMMAD,94,PUR,F,5,"Icahn Stadium, New York, NY (USA)",09.06,976
-156,10.72,-0.9,Trae ARMSTRONG,94,USA,F,6,"Icahn Stadium, New York, NY (USA)",09.06,976
-157,10.73,-0.9,Tremayne ACY,95,USA,F,7,"Icahn Stadium, New York, NY (USA)",09.06,973
-158,10.75,+0.7,Carl ARMFELT,84,SWE,F,5,"Olympiastadion, Stockholm (SWE)",17.08,962
-159,10.77,-0.7,Rosario LA MASTRA,84,ITA,F1,8,"Letzigrund, Zürich (SUI)",30.08,959
-160,10.84,+0.5,Sam EFFAH,88,CAN,F2,7,"Stadio Olimpico, Roma (ITA)",31.05,934
-161,10.85,+0.5,Jerrel FELLER,87,NED,F2,8,"Stadio Olimpico, Roma (ITA)",31.05,931
-162,10.86,-0.7,Rolf FONGUÉ,87,SUI,F2,9,"Letzigrund, Zürich (SUI)",30.08,932
-163,10.87,-0.7,Steven GUGERLI,85,SUI,F1,9,"Letzigrund, Zürich (SUI)",30.08,929
-164,10.99,+1.0,Alan DE MEULEMEESTER,95,BEL,F,1,"Boudewijnstadion, Bruxelles (BEL)",07.09,889
-165,11.19,+1.0,Lionel DEGAVRE,95,BEL,F,2,"Boudewijnstadion, Bruxelles (BEL)",07.09,831
-166,11.20,+0.7,Judel KIBONDO,86,SWE,F,6,"Olympiastadion, Stockholm (SWE)",17.08,828
-167,11.27,+1.0,Dries DAVID,95,BEL,F,3,"Boudewijnstadion, Bruxelles (BEL)",07.09,808
-168,11.29,+1.0,Jan DULLERS,95,BEL,F,4,"Boudewijnstadion, Bruxelles (BEL)",07.09,803
-169,11.31,+1.0,Tiemen TACK,96,BEL,F,5,"Boudewijnstadion, Bruxelles (BEL)",07.09,797
-170,11.31,+1.0,Sacha JONCKERS,95,BEL,F,6,"Boudewijnstadion, Bruxelles (BEL)",07.09,797
-171,11.32,+1.0,Bert LEROY,96,BEL,F,7,"Boudewijnstadion, Bruxelles (BEL)",07.09,794
-172,11.41,+1.0,Tibo HOEBRECHTS,95,BEL,F,8,"Boudewijnstadion, Bruxelles (BEL)",07.09,769
+results,wind,athlete,birth_year,nationality,race,place,venue,date,rs
+9.69,-0.1,Yohan BLAKE,89,JAM,F,1,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1316
+9.76,-0.1,Usain BOLT,86,JAM,F,1,"Stadio Olimpico, Roma (ITA)",31.05,1291
+9.76,+1.4,Yohan BLAKE,89,JAM,F,1,"Letzigrund, Zürich (SUI)",30.08,1291
+9.79,+0.6,Usain BOLT,86,JAM,F,1,"Bislett Stadion, Oslo (NOR)",07.06,1280
+9.85,+0.6,Asafa POWELL,82,JAM,F,2,"Bislett Stadion, Oslo (NOR)",07.06,1259
+9.86,+0.3,Usain BOLT,86,JAM,F,1,"Boudewijnstadion, Bruxelles (BEL)",07.09,1255
+9.87,+0.4,Justin GATLIN,82,USA,F,1,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1252
+9.88,+0.4,Asafa POWELL,82,JAM,F,2,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1248
+9.90,+1.3,Justin GATLIN,82,USA,F,1,"Hayward Field, Eugene, OR (USA)",02.06,1241
+9.90,+0.7,Yohan BLAKE,89,JAM,F1,1,"Icahn Stadium, New York, NY (USA)",09.06,1241
+9.91,-0.1,Asafa POWELL,82,JAM,F,2,"Stadio Olimpico, Roma (ITA)",31.05,1238
+9.93,+1.3,Nickel ASHMEADE,90,JAM,F,2,"Hayward Field, Eugene, OR (USA)",02.06,1231
+9.93,+0.7,Keston BLEDMAN,88,TTO,F1,2,"Icahn Stadium, New York, NY (USA)",09.06,1231
+9.93,+0.7,Ryan BAILEY,89,USA,F,1,"Olympiastadion, Stockholm (SWE)",17.08,1231
+9.95,-0.1,Nesta CARTER,85,JAM,F,2,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1224
+9.95,+1.4,Nesta CARTER,85,JAM,F,2,"Letzigrund, Zürich (SUI)",30.08,1224
+9.96,+0.3,Nesta CARTER,85,JAM,F,2,"Boudewijnstadion, Bruxelles (BEL)",07.09,1220
+9.97,+1.4,Ryan BAILEY,89,USA,F,3,"Letzigrund, Zürich (SUI)",30.08,1217
+9.97,+0.3,Kemar BAILEY-COLE,92,JAM,F,3,"Boudewijnstadion, Bruxelles (BEL)",07.09,1217
+9.99,+0.4,Lerone CLARKE,81,JAM,F,3,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1210
+9.99,+0.7,Michael RODGERS,85,USA,F1,3,"Icahn Stadium, New York, NY (USA)",09.06,1210
+9.99,0.0,Tyson GAY,82,USA,F,1,Paris (FRA),06.07,1210
+10.00,+0.4,Michael RODGERS,85,USA,F,4,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1206
+10.00,-1.5,Tyson GAY,82,USA,F2,1,"Icahn Stadium, New York, NY (USA)",09.06,1215
+10.00,-0.1,Ryan BAILEY,89,USA,F,3,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1206
+10.01,+1.4,Kim COLLINS,76,SKN,F,4,"Letzigrund, Zürich (SUI)",30.08,1203
+10.02,-0.4,Asafa POWELL,82,JAM,F,1,"Shanghai Stadium, Shanghai (CHN)",19.05,1201
+10.02,-0.1,Jimmy VICAUT,92,FRA,F,4,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1199
+10.03,0.0,Justin GATLIN,82,USA,F,2,Paris (FRA),06.07,1196
+10.03,-1.2,Tyson GAY,82,USA,F,1,"Crystal Palace, London (GBR)",13.07,1203
+10.03,+0.3,Kim COLLINS,76,SKN,F,4,"Boudewijnstadion, Bruxelles (BEL)",07.09,1196
+10.03,+0.3,Nickel ASHMEADE,90,JAM,F,5,"Boudewijnstadion, Bruxelles (BEL)",07.09,1196
+10.04,-0.1,Christophe LEMAITRE,90,FRA,F,3,"Stadio Olimpico, Roma (ITA)",31.05,1193
+10.04,+1.3,Trell KIMMONS,85,USA,F,3,"Hayward Field, Eugene, OR (USA)",02.06,1193
+10.04,+1.3,Walter DIX,86,USA,F,4,"Hayward Field, Eugene, OR (USA)",02.06,1193
+10.04,+1.4,Michael FRATER,82,JAM,F,5,"Letzigrund, Zürich (SUI)",30.08,1193
+10.04,+0.3,Ryan BAILEY,89,USA,F,6,"Boudewijnstadion, Bruxelles (BEL)",07.09,1193
+10.05,+0.4,Nesta CARTER,85,JAM,F,5,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1189
+10.05,-0.1,Kim COLLINS,76,SKN,F,4,"Stadio Olimpico, Roma (ITA)",31.05,1189
+10.05,+1.3,Darvis PATTON,77,USA,F,5,"Hayward Field, Eugene, OR (USA)",02.06,1189
+10.05,+1.3,Nesta CARTER,85,JAM,F,6,"Hayward Field, Eugene, OR (USA)",02.06,1189
+10.06,-1.5,Ryan BAILEY,89,USA,H1,1,"Crystal Palace, London (GBR)",13.07,1195
+10.06,+0.7,Nesta CARTER,85,JAM,F,2,"Olympiastadion, Stockholm (SWE)",17.08,1186
+10.06,+0.3,Jimmy VICAUT,92,FRA,F,7,"Boudewijnstadion, Bruxelles (BEL)",07.09,1186
+10.07,+1.3,Michael RODGERS,85,USA,F,7,"Hayward Field, Eugene, OR (USA)",02.06,1182
+10.07,+1.4,Christophe LEMAITRE,90,FRA,F,6,"Letzigrund, Zürich (SUI)",30.08,1182
+10.08,-0.4,Michael RODGERS,85,USA,F,2,"Shanghai Stadium, Shanghai (CHN)",19.05,1181
+10.08,0.0,Christophe LEMAITRE,90,FRA,F,3,Paris (FRA),06.07,1179
+10.08,+1.4,Darvis PATTON,77,USA,F,7,"Letzigrund, Zürich (SUI)",30.08,1179
+10.09,+0.7,Richard THOMPSON,85,TTO,F1,4,"Icahn Stadium, New York, NY (USA)",09.06,1176
+10.09,-1.2,Ryan BAILEY,89,USA,F,2,"Crystal Palace, London (GBR)",13.07,1183
+10.10,+0.6,Lerone CLARKE,81,JAM,F,3,"Bislett Stadion, Oslo (NOR)",07.06,1172
+10.11,+0.4,Darvis PATTON,77,USA,F,6,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1169
+10.12,+0.7,Michael FRATER,82,JAM,F,3,"Olympiastadion, Stockholm (SWE)",17.08,1165
+10.13,-1.2,Nesta CARTER,85,JAM,F,3,"Crystal Palace, London (GBR)",13.07,1169
+10.13,-0.1,Jaysuma SAIDY NDURE,84,NOR,F,5,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1162
+10.13,-0.7,Kemar BAILEY-COLE,92,JAM,F2,1,"Letzigrund, Zürich (SUI)",30.08,1166
+10.14,+0.4,Jak Ali HARVEY,89,JAM,F,7,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1159
+10.14,+1.3,Emmanuel CALLENDER,84,TTO,F,8,"Hayward Field, Eugene, OR (USA)",02.06,1159
+10.14,0.0,Nickel ASHMEADE,90,JAM,F,4,Paris (FRA),06.07,1159
+10.14,0.0,Michael FRATER,82,JAM,F,5,Paris (FRA),06.07,1159
+10.14,+0.7,Jaysuma SAIDY NDURE,84,NOR,F,1,"Olympiastadion, Stockholm (SWE)",17.08,1159
+10.14,-0.1,Keston BLEDMAN,88,TTO,F,6,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1159
+10.15,+0.7,Trell KIMMONS,85,USA,F1,5,"Icahn Stadium, New York, NY (USA)",09.06,1155
+10.15,-1.5,Nesta CARTER,85,JAM,H1,2,"Crystal Palace, London (GBR)",13.07,1164
+10.15,-0.7,Michael FRATER,82,JAM,H2,1,"Crystal Palace, London (GBR)",13.07,1159
+10.15,-0.7,Tyson GAY,82,USA,H2,2,"Crystal Palace, London (GBR)",13.07,1159
+10.15,-1.2,Michael FRATER,82,JAM,F,4,"Crystal Palace, London (GBR)",13.07,1162
+10.15,+0.7,Darvis PATTON,77,USA,F,4,"Olympiastadion, Stockholm (SWE)",17.08,1155
+10.15,-0.7,Adam GEMILI,93,GBR,F2,2,"Letzigrund, Zürich (SUI)",30.08,1159
+10.16,-0.4,Nesta CARTER,85,JAM,F,3,"Shanghai Stadium, Shanghai (CHN)",19.05,1154
+10.16,-0.1,Lerone CLARKE,81,JAM,F,5,"Stadio Olimpico, Roma (ITA)",31.05,1152
+10.16,0.0,Michael RODGERS,85,USA,F,6,Paris (FRA),06.07,1152
+10.16,-0.7,Trell KIMMONS,85,USA,H2,3,"Crystal Palace, London (GBR)",13.07,1156
+10.18,0.0,Trell KIMMONS,85,USA,F,7,Paris (FRA),06.07,1145
+10.18,-1.5,Michael RODGERS,85,USA,H1,3,"Crystal Palace, London (GBR)",13.07,1154
+10.19,-0.7,Kim COLLINS,76,SKN,H2,4,"Crystal Palace, London (GBR)",13.07,1146
+10.19,-1.2,Michael RODGERS,85,USA,F,5,"Crystal Palace, London (GBR)",13.07,1149
+10.19,-1.2,Trell KIMMONS,85,USA,F,6,"Crystal Palace, London (GBR)",13.07,1149
+10.19,+1.4,Jaysuma SAIDY NDURE,84,NOR,F,8,"Letzigrund, Zürich (SUI)",30.08,1142
+10.20,+0.6,Justyn WARNER,87,CAN,F,4,"Bislett Stadion, Oslo (NOR)",07.06,1138
+10.20,+0.7,Daniel BAILEY,86,ANT,F1,6,"Icahn Stadium, New York, NY (USA)",09.06,1138
+10.20,0.0,Richard THOMPSON,85,TTO,F,8,Paris (FRA),06.07,1138
+10.21,+0.7,Gerald PHIRI,88,ZAM,F1,7,"Icahn Stadium, New York, NY (USA)",09.06,1135
+10.21,-0.7,Kemar HYMAN,89,CAY,H2,5,"Crystal Palace, London (GBR)",13.07,1139
+10.21,-0.7,James DASAOLU,87,GBR,F2,3,"Letzigrund, Zürich (SUI)",30.08,1139
+10.22,-0.4,Darvis PATTON,77,USA,F,4,"Shanghai Stadium, Shanghai (CHN)",19.05,1134
+10.22,+0.7,Adam GEMILI,93,GBR,F,5,"Olympiastadion, Stockholm (SWE)",17.08,1132
+10.23,-0.1,Kimmari ROACH,89,JAM,F,6,"Stadio Olimpico, Roma (ITA)",31.05,1128
+10.23,+0.7,Travis PADGETT,86,USA,F1,8,"Icahn Stadium, New York, NY (USA)",09.06,1128
+10.23,+0.7,Richard THOMPSON,85,TTO,F,6,"Olympiastadion, Stockholm (SWE)",17.08,1128
+10.23,+0.3,Gerald PHIRI,88,ZAM,F,8,"Boudewijnstadion, Bruxelles (BEL)",07.09,1128
+10.24,-0.1,Jak Ali HARVEY,89,JAM,F,7,"Stadio Olimpico, Roma (ITA)",31.05,1125
+10.24,+0.7,Gerald PHIRI,88,ZAM,F,7,"Olympiastadion, Stockholm (SWE)",17.08,1125
+10.25,-1.2,Kemar HYMAN,89,CAY,F,7,"Crystal Palace, London (GBR)",13.07,1129
+10.26,-0.4,Mario FORSYTHE,85,JAM,F,5,"Shanghai Stadium, Shanghai (CHN)",19.05,1120
+10.26,+0.5,Ángel David RODRÍGUEZ,80,ESP,F2,1,"Stadio Olimpico, Roma (ITA)",31.05,1118
+10.27,+0.7,Ramone MCKENZIE,90,JAM,F1,9,"Icahn Stadium, New York, NY (USA)",09.06,1115
+10.27,-1.5,Keston BLEDMAN,88,TTO,H1,4,"Crystal Palace, London (GBR)",13.07,1124
+10.27,+0.7,Wallace SPEARMON,84,USA,F,2,"Olympiastadion, Stockholm (SWE)",17.08,1115
+10.27,-0.7,Mario FORSYTHE,85,JAM,F2,4,"Letzigrund, Zürich (SUI)",30.08,1119
+10.28,+0.4,Jimmy VICAUT,92,FRA,F,8,"Suhaim bin Hamad Stadium, Doha (QAT)",11.05,1112
+10.30,-0.1,Ainsley WAUGH,81,JAM,F,8,"Stadio Olimpico, Roma (ITA)",31.05,1105
+10.30,+0.6,Simon MAGAKWE,86,RSA,F,5,"Bislett Stadion, Oslo (NOR)",07.06,1105
+10.30,-1.5,Kemar BAILEY-COLE,92,JAM,F2,2,"Icahn Stadium, New York, NY (USA)",09.06,1114
+10.30,-1.5,Jason YOUNG,91,JAM,F2,3,"Icahn Stadium, New York, NY (USA)",09.06,1114
+10.31,-0.4,Bingtian SU,89,CHN,F,6,"Shanghai Stadium, Shanghai (CHN)",19.05,1104
+10.31,-0.7,Calesio NEWMAN,86,USA,F2,5,"Letzigrund, Zürich (SUI)",30.08,1106
+10.32,-0.4,Michael FRATER,82,JAM,F,7,"Shanghai Stadium, Shanghai (CHN)",19.05,1101
+10.32,+0.6,Dontae RICHARDS-KWOK,89,CAN,F1,1,"Stadio Olimpico, Roma (ITA)",31.05,1099
+10.32,0.0,Calesio NEWMAN,86,USA,F,9,Paris (FRA),06.07,1099
+10.32,-0.7,Jak Ali HARVEY,89,JAM,H2,6,"Crystal Palace, London (GBR)",13.07,1103
+10.32,-0.1,Richard THOMPSON,85,TTO,F,7,"Stade Olympique de la Pontaise, Lausanne (SUI)",23.08,1099
+10.32,+0.3,Kenroy ANDERSON,87,JAM,F,9,"Boudewijnstadion, Bruxelles (BEL)",07.09,1099
+10.33,-0.1,Simon MAGAKWE,86,RSA,F,9,"Stadio Olimpico, Roma (ITA)",31.05,1095
+10.34,-0.4,Kim COLLINS,76,SKN,F,8,"Shanghai Stadium, Shanghai (CHN)",19.05,1094
+10.35,-0.4,Peimeng ZHANG,87,CHN,F,9,"Shanghai Stadium, Shanghai (CHN)",19.05,1091
+10.35,-1.5,Dwain CHAMBERS,78,GBR,H1,5,"Crystal Palace, London (GBR)",13.07,1098
+10.37,+0.5,Christian MALCOLM,79,GBR,F2,2,"Stadio Olimpico, Roma (ITA)",31.05,1082
+10.37,-1.5,Kemar BAILEY-COLE,92,JAM,H1,6,"Crystal Palace, London (GBR)",13.07,1091
+10.40,+0.6,Marlon DEVONISH,76,GBR,F,6,"Bislett Stadion, Oslo (NOR)",07.06,1072
+10.40,+0.7,Alexander BRORSSON,90,SWE,F,3,"Olympiastadion, Stockholm (SWE)",17.08,1072
+10.40,+0.7,Rytis SAKALAUSKAS,87,LTU,F,4,"Olympiastadion, Stockholm (SWE)",17.08,1072
+10.41,+0.5,Giovanni CODRINGTON,88,NED,F2,3,"Stadio Olimpico, Roma (ITA)",31.05,1069
+10.43,-0.9,LeVonte WHITFIELD,93,USA,F,1,"Icahn Stadium, New York, NY (USA)",09.06,1068
+10.44,-0.7,Julian REUS,88,GER,F2,6,"Letzigrund, Zürich (SUI)",30.08,1063
+10.45,+0.7,Nil DE OLIVEIRA,86,SWE,F,8,"Olympiastadion, Stockholm (SWE)",17.08,1056
+10.45,-0.7,Daniel TALBOT,91,GBR,F1,1,"Letzigrund, Zürich (SUI)",30.08,1060
+10.46,+0.6,Reto Amaru SCHENKEL,88,SUI,F1,2,"Stadio Olimpico, Roma (ITA)",31.05,1053
+10.46,-1.5,Aaron ARMSTRONG,77,TTO,F2,4,"Icahn Stadium, New York, NY (USA)",09.06,1062
+10.47,+0.6,Ho-sua YEO,87,KOR,F1,3,"Stadio Olimpico, Roma (ITA)",31.05,1050
+10.47,-0.9,Jazeel MURPHY,94,JAM,F,2,"Icahn Stadium, New York, NY (USA)",09.06,1055
+10.48,+0.5,Kyung-soo OH,87,KOR,F2,4,"Stadio Olimpico, Roma (ITA)",31.05,1047
+10.49,+0.6,Leevan YEARWOOD,88,GBR,F1,4,"Stadio Olimpico, Roma (ITA)",31.05,1043
+10.49,+0.5,Gavin SMELLIE,86,CAN,F2,5,"Stadio Olimpico, Roma (ITA)",31.05,1043
+10.50,+0.6,Alex WILSON,90,SUI,F1,5,"Stadio Olimpico, Roma (ITA)",31.05,1040
+10.51,+0.5,Julian REUS,88,GER,F2,6,"Stadio Olimpico, Roma (ITA)",31.05,1037
+10.52,+0.6,Fabio CERUTTI,85,ITA,F,7,"Bislett Stadion, Oslo (NOR)",07.06,1034
+10.52,-1.5,Jeremy BASCOM,83,GUY,F2,5,"Icahn Stadium, New York, NY (USA)",09.06,1043
+10.52,-0.7,Kamil MASZTAK,84,POL,F1,2,"Letzigrund, Zürich (SUI)",30.08,1038
+10.53,-0.7,Christian MALCOLM,79,GBR,F2,7,"Letzigrund, Zürich (SUI)",30.08,1035
+10.54,-0.9,Abraham HALL,93,USA,F,3,"Icahn Stadium, New York, NY (USA)",09.06,1032
+10.55,-1.5,Ahmad RASHAD,87,USA,F2,6,"Icahn Stadium, New York, NY (USA)",09.06,1033
+10.55,-1.5,Mark LEWIS-FRANCIS,82,GBR,H1,7,"Crystal Palace, London (GBR)",13.07,1033
+10.57,-0.7,Andrew ROBERTSON,90,GBR,H2,7,"Crystal Palace, London (GBR)",13.07,1022
+10.59,+0.6,Brian MARIANO,85,NED,F1,6,"Stadio Olimpico, Roma (ITA)",31.05,1011
+10.59,-0.9,Raymond BOZMANS,94,USA,F,4,"Icahn Stadium, New York, NY (USA)",09.06,1016
+10.59,-1.5,Rushane SCOTT,88,JAM,F2,7,"Icahn Stadium, New York, NY (USA)",09.06,1020
+10.59,-0.7,Simone COLLIO,79,ITA,F1,3,"Letzigrund, Zürich (SUI)",30.08,1015
+10.59,-0.7,Reto Amaru SCHENKEL,88,SUI,F2,8,"Letzigrund, Zürich (SUI)",30.08,1015
+10.62,-0.7,Giovanni CODRINGTON,88,NED,F1,4,"Letzigrund, Zürich (SUI)",30.08,1006
+10.65,-0.7,Brian MARIANO,85,NED,F1,5,"Letzigrund, Zürich (SUI)",30.08,997
+10.66,-0.7,Martin KELLER,86,GER,F1,6,"Letzigrund, Zürich (SUI)",30.08,994
+10.67,-1.5,Simeon WILLIAMSON,86,GBR,H1,8,"Crystal Palace, London (GBR)",13.07,995
+10.68,-0.7,Jakub ADAMSKI,87,POL,F1,7,"Letzigrund, Zürich (SUI)",30.08,987
+10.72,-0.9,Khalfani MUHAMMAD,94,PUR,F,5,"Icahn Stadium, New York, NY (USA)",09.06,976
+10.72,-0.9,Trae ARMSTRONG,94,USA,F,6,"Icahn Stadium, New York, NY (USA)",09.06,976
+10.73,-0.9,Tremayne ACY,95,USA,F,7,"Icahn Stadium, New York, NY (USA)",09.06,973
+10.75,+0.7,Carl ARMFELT,84,SWE,F,5,"Olympiastadion, Stockholm (SWE)",17.08,962
+10.77,-0.7,Rosario LA MASTRA,84,ITA,F1,8,"Letzigrund, Zürich (SUI)",30.08,959
+10.84,+0.5,Sam EFFAH,88,CAN,F2,7,"Stadio Olimpico, Roma (ITA)",31.05,934
+10.85,+0.5,Jerrel FELLER,87,NED,F2,8,"Stadio Olimpico, Roma (ITA)",31.05,931
+10.86,-0.7,Rolf FONGUÉ,87,SUI,F2,9,"Letzigrund, Zürich (SUI)",30.08,932
+10.87,-0.7,Steven GUGERLI,85,SUI,F1,9,"Letzigrund, Zürich (SUI)",30.08,929
+10.99,+1.0,Alan DE MEULEMEESTER,95,BEL,F,1,"Boudewijnstadion, Bruxelles (BEL)",07.09,889
+11.19,+1.0,Lionel DEGAVRE,95,BEL,F,2,"Boudewijnstadion, Bruxelles (BEL)",07.09,831
+11.20,+0.7,Judel KIBONDO,86,SWE,F,6,"Olympiastadion, Stockholm (SWE)",17.08,828
+11.27,+1.0,Dries DAVID,95,BEL,F,3,"Boudewijnstadion, Bruxelles (BEL)",07.09,808
+11.29,+1.0,Jan DULLERS,95,BEL,F,4,"Boudewijnstadion, Bruxelles (BEL)",07.09,803
+11.31,+1.0,Tiemen TACK,96,BEL,F,5,"Boudewijnstadion, Bruxelles (BEL)",07.09,797
+11.31,+1.0,Sacha JONCKERS,95,BEL,F,6,"Boudewijnstadion, Bruxelles (BEL)",07.09,797
+11.32,+1.0,Bert LEROY,96,BEL,F,7,"Boudewijnstadion, Bruxelles (BEL)",07.09,794
+11.41,+1.0,Tibo HOEBRECHTS,95,BEL,F,8,"Boudewijnstadion, Bruxelles (BEL)",07.09,769
