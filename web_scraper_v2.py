@@ -3,7 +3,7 @@ import requests
 import numpy as np
 import pandas as pd
 from glob import glob
-from datetime import datetime
+from datetime import datetime as date
 from bs4 import BeautifulSoup
 
 HEADERS = {
@@ -31,7 +31,7 @@ class Extract:
         else:
             os.mkdir(concat_csv_name)
 
-        return [split_csv_name, concat_csv_name]
+        return split_csv_name, concat_csv_name
 
 
     def parse_html(url, soup):
@@ -70,7 +70,7 @@ class Extract:
 
     def partitioned_by_year_to_csv():
         
-        years = [year for year in range(2010, datetime.now().year + 1)]
+        years = [year for year in range(2010, date.now().year + 1)]
 
         for year in years: 
             print(f"Processing {year} data")
@@ -99,16 +99,18 @@ class Extract:
                 'date':data_list[8], 
                 'rs':data_list[9]})
 
-            today = datetime.today().strftime('%m%d%Y')
+            today = date.today().strftime('%m%d%Y')
             folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[0]
+            print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
             results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}_{today}.csv')
 
 
     def concatenate_partitioned_csv():
         file_paths = sorted(glob(os.path.join('uncleaned_partitioned_output', "*.csv")))
         full_df = (pd.concat([pd.read_csv(input_file_path) for input_file_path in file_paths]))
-        today = datetime.today().strftime('%m%d%Y')
+        today = date.today().strftime('%m%d%Y')
         folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[1]
+        print(f"outputting: uncleaned_all_years_{today}.csv")
         full_df.to_csv(f'{folder_name}/uncleaned_all_years_{today}.csv')
 
 
