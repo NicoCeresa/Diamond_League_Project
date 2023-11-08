@@ -18,8 +18,13 @@ HEADERS = {
     "Upgrade-Insecure-Requests":"1"
 }
 
-client = boto3.client('s3', aws_access_key_id = aws_creds['AWS_acces_key'])
-# print(aws_creds['AWS_acces_key'])
+# client = boto3.client('s3', aws_access_key_id = aws_creds['AWS_acces_key'], aws_secret_access_key=aws_creds['AWS_secret'])
+# bucket_name = 'diamond-league-project-s3'
+# object_key = 'test.csv'
+# csv_obj = client.get_obj(Bucket=bucket_name, key=object_key)
+# body = csv_obj['Body']
+# csv_str = body.read().decode('utf-8')
+# # print(aws_creds['AWS_acces_key'])
 
 today = date.today().strftime('%m%d%Y')
 
@@ -74,9 +79,17 @@ class Extract:
                 pass
         return [result_list, wind_list, athlete_list, birth_list, nat_list, race_list, place_list, venue_list, date_list, rs_list]
     
+    def same_length(list1: list, list2: list):
+        
+        same_length = all(len(list1) == len(list2[0]) for list1 in list2)
+        if same_length:
+            print("All lists have the same length.")
+        else:
+            print("Lists have different lengths.")
+            break
 
     def partitioned_by_year_to_csv():
-        
+        df_dict = {}
         years = [year for year in range(2010, date.now().year + 1)]
 
         for year in years: 
@@ -86,15 +99,9 @@ class Extract:
             soup = BeautifulSoup(response.content, 'html.parser')
 
             data_list = Extract.parse_html(url, soup)
+
+            Extract.same_length(lst, data_list)
             
-            same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
-
-            if same_length:
-                print("All lists have the same length.")
-            else:
-                print("Lists have different lengths.")
-                break
-
             results_df = pd.DataFrame({'results':data_list[0],
                 'wind':data_list[1], 
                 'athlete':data_list[2],
@@ -107,16 +114,25 @@ class Extract:
                 'rs':data_list[9]})
 
             folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[0]
-            print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
-            results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}_{today}.csv')
+            # print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
+            results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}.csv')
+            df_dict[f"{year}"] = results_df
+        return df_dict
+    
+    def partitioned_output_dictionary():
+        df_dict = {}
+        pass
+        
 
 
     def concatenate_partitioned_csv():
         file_paths = sorted(glob(os.path.join('uncleaned_partitioned_output', "*.csv")))
         full_df = (pd.concat([pd.read_csv(input_file_path) for input_file_path in file_paths]))
         folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[1]
-        print(f"outputting: uncleaned_all_years_{today}.csv")
-        full_df.to_csv(f'{folder_name}/uncleaned_all_years_{today}.csv')
+        # print(f"outputting: uncleaned_all_years_{today}.csv")
+        full_df.to_csv(f'{folder_name}/uncleaned_all_years.csv')
+        return full_df
+        
 
 
 if __name__ == '__main__':
