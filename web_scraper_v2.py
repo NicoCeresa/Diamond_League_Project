@@ -7,8 +7,9 @@ from hush import aws_creds, HEADERS
 from bs4 import BeautifulSoup
 from datetime import datetime as date
 
-
+"""
 main_url = 'https://www.diamondleague.com/lists-results/statistics/'
+"""
 
 class Extract:
 
@@ -35,6 +36,19 @@ class Extract:
             os.mkdir(concat_folder_name)
 
         return split_folder_name, concat_folder_name
+    
+    
+    def same_length(data_list: list):
+        """_summary_
+        check for if the lists in a list of lists are all equal
+        Args:
+            data_list (list): a list of lists
+        """
+        same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
+        if same_length:
+            print("All lists have the same length.")
+        else:
+            print("Lists have different lengths.")
 
 
     def parse_html(url, soup):
@@ -59,7 +73,7 @@ class Extract:
         venue = soup.find_all('td', class_='venue')
         date = soup.find_all('td', class_='date')
         rs = soup.find_all('td', class_='center score')
-
+        
         result_list = [element.text for element in result]
         wind_list = [element.text for element in wind]
         athlete_list = [element.text for element in athlete]
@@ -78,19 +92,6 @@ class Extract:
             else:
                 pass
         return [result_list, wind_list, athlete_list, birth_list, nat_list, race_list, place_list, venue_list, date_list, rs_list]
-    
-    
-    def same_length(data_list: list):
-        """_summary_
-        check for if the lists in a list of lists are all equal
-        Args:
-            data_list (list): a list of lists
-        """
-        same_length = all(len(lst) == len(data_list[0]) for lst in data_list)
-        if same_length:
-            print("All lists have the same length.")
-        else:
-            print("Lists have different lengths.")
         
 
     def partitioned_by_year_to_csv():
