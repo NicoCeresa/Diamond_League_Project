@@ -11,7 +11,7 @@ s3 = boto3.resource(
     aws_secret_access_key=aws_creds['AWS_secret'] # ^^^
 )
 
-class Load:
+class Load_S3:
     
     def load_partitioned_csv():
         partitioned_folder = "uncleaned_partitioned_output"
@@ -30,5 +30,5 @@ class Load:
         
 
 if __name__ == '__main__':
-    Load.load_partitioned_csv()
-    Load.load_full_csv()
+    Load_S3.load_partitioned_csv()
+    Load_S3.load_full_csv()
