@@ -3,8 +3,9 @@ import boto3
 import requests
 import numpy as np
 import pandas as pd
-from hush import aws_creds, HEADERS
+from glob import glob
 from bs4 import BeautifulSoup
+from hush import aws_creds, HEADERS
 from datetime import datetime as date
 
 """
@@ -51,6 +52,10 @@ class Extract:
             print("Lists have different lengths.")
 
 
+    def extract_data(soup, class_name):
+        elements = soup.find_all('td', class_=class_name)
+        return [element.text for element in elements]
+
     def parse_html(url, soup):
         """_summary_
 
@@ -61,29 +66,41 @@ class Extract:
         Returns:
             _type_: _description_
         """
-        result = soup.find_all('td', class_='right result')
-        wind = soup.find_all('td', class_='right wind')
-        # pa_pr_rec = soup.find_all('td', class_='center')
-        # pr = soup.find_all('td', class_='center')
-        athlete = soup.find_all('td', class_='left achiever')
-        birth = soup.find_all('td', class_='center birthdate')
-        nat = soup.find_all('td', class_='center nationality')
-        race = soup.find_all('td', class_='right')
-        place = soup.find_all('td', class_='center place')
-        venue = soup.find_all('td', class_='venue')
-        date = soup.find_all('td', class_='date')
-        rs = soup.find_all('td', class_='center score')
+        # result = soup.find_all('td', class_='right result')
+        # wind = soup.find_all('td', class_='right wind')
+        # # pa_pr_rec = soup.find_all('td', class_='center')
+        # # pr = soup.find_all('td', class_='center')
+        # athlete = soup.find_all('td', class_='left achiever')
+        # birth = soup.find_all('td', class_='center birthdate')
+        # nat = soup.find_all('td', class_='center nationality')
+        # race = soup.find_all('td', class_='right')
+        # place = soup.find_all('td', class_='center place')
+        # venue = soup.find_all('td', class_='venue')
+        # date = soup.find_all('td', class_='date')
+        # rs = soup.find_all('td', class_='center score')
         
-        result_list = [element.text for element in result]
-        wind_list = [element.text for element in wind]
-        athlete_list = [element.text for element in athlete]
-        birth_list = [element.text for element in birth]
-        nat_list = [element.text for element in nat]
-        full_race_list = [element.text for element in race]
-        place_list = [element.text for element in place]
-        venue_list = [element.text for element in venue]
-        date_list = [element.text for element in date]
-        rs_list = [element.text for element in rs]
+        # result_list = [element.text for element in result]
+        # wind_list = [element.text for element in wind]
+        # athlete_list = [element.text for element in athlete]
+        # birth_list = [element.text for element in birth]
+        # nat_list = [element.text for element in nat]
+        # full_race_list = [element.text for element in race]
+        # place_list = [element.text for element in place]
+        # venue_list = [element.text for element in venue]
+        # date_list = [element.text for element in date]
+        # rs_list = [element.text for element in rs]
+        
+        result_list = Extract.extract_data(soup, 'right result')
+        wind_list = Extract.extract_data(soup, 'right wind')
+        athlete_list = Extract.extract_data(soup, 'left achiever')
+        birth_list = Extract.extract_data(soup, 'center birthdate')
+        nat_list = Extract.extract_data(soup, 'center nationality')
+        full_race_list = Extract.extract_data(soup, 'right')
+        place_list = Extract.extract_data(soup, 'center place')
+        venue_list = Extract.extract_data(soup, 'venue')
+        date_list = Extract.extract_data(soup, 'date')
+        rs_list = Extract.extract_data(soup, 'center score')
+
 
         race_list = []
         for idx, element in enumerate(full_race_list):
