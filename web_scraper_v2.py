@@ -57,8 +57,8 @@ class Extract:
         return [element.text for element in elements]
 
     def parse_html(url, soup):
-        """_summary_
-
+        """
+        Grabs the html using Beautiful soup and gets the text
         Args:
             url (str): url of what you want to scrape
             soup (Beautifulsoup): Initialization of Beautifulsoup
@@ -103,9 +103,7 @@ class Extract:
             url = f'https://dl.all-athletics.com/dls/en/seasons-list/{year}/ffnnn/10229630/1073741823/detailed'
             response = requests.get(url, headers=HEADERS)
             soup = BeautifulSoup(response.content, 'html.parser')
-
             data_list = Extract.parse_html(url, soup)
-            
             Extract.same_length(data_list=data_list)
 
             results_df = pd.DataFrame({'results':data_list[0],
@@ -120,7 +118,6 @@ class Extract:
                 'rs':data_list[9]})
 
             folder_name = Extract.init_folders('uncleaned_partitioned_output', 'uncleaned_all_years_csv')[0]
-            # print(f"outputting: uncleaned_partitioned_{year}_{today}.csv")
             results_df.to_csv(f'{folder_name}/uncleaned_partitioned_{year}.csv', index=False)
             df_dict[f"{year}"] = results_df
         return df_dict
