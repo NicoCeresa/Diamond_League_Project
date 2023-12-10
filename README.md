@@ -28,7 +28,8 @@ run the file `web_scraper_v2.py` like this:
 - Add a transform file
 - load to a mysql db (dbeaver maybe)
 - orchestrate with airflow on an ec2 container
-- Create a full data pipeline and extract insights from the data
+- Create a full data pipeline
+- Use regression to predict their next race
 - if its possible I want to add functionality of being able to choose what event you want to look at
 
 **Goal**
