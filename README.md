@@ -23,6 +23,8 @@ run the file `web_scraper_v2.py` like this:
   - again, not used as I have found a better approach but want to keep it here as it is apart of the journey
 
 **Next Steps**
+- Add location data such as:
+-   Elevation, temperature, and weather
 - Add a transform file
 - load to a mysql db (dbeaver maybe)
 - orchestrate with airflow on an ec2 container
