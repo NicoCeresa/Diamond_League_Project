@@ -25,6 +25,8 @@ run the file `web_scraper_v2.py` like this:
 **Next Steps**
 - Add location data such as:
   - Elevation, temperature, and weather
+- Try to find speed tracking data
+- Create Visualizations/Dashboard
 - Add a transform file
 - load to a mysql db (dbeaver maybe)
 - orchestrate with airflow on an ec2 container
