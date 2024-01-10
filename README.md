@@ -24,6 +24,15 @@ run the file `web_scraper_v2.py` like this:
 
 **Next Steps**
 - Add a transform file
+  - add 19 or 20 to birth year
+    - add age
+  - make DOB more date-like
+  - add date of event col
+    - add weather data for the date
+  - make col for venue location
+    - remove the location from og venue col
+  - add race distance
+  
 - load to a mysql db (dbeaver maybe)
 - orchestrate with airflow on an ec2 container
 - Create a full data pipeline and extract insights from the data
