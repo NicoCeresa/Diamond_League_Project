@@ -43,5 +43,9 @@ run the file `web_scraper_v2.py` like this:
 - Use regression to predict their next race
 - if its possible I want to add functionality of being able to choose what event you want to look at
 
+**Metrics to track**
+- How much people are affected by different weathers
+- Are any tracks "faster" than others
+
 **Goal**
 - My goal for this project is to build a model that forecasts likelihood of who wins the next race based on their previous performances
